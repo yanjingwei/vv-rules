@@ -1,0 +1,4 @@
+payload:
+  # Tencent / WeChat HTTPDNS-returned CDN IPs confirmed from access logs
+  - 43.160.156.0/24
+  - 43.174.88.0/24
