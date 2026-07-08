@@ -1,0 +1,106 @@
+payload:
+  # HTTPDNS / encrypted DNS endpoints used by China apps
+  - DOMAIN-KEYWORD,httpdns
+  - DOMAIN-KEYWORD,httpsdns
+  - DOMAIN,httpdns-api.aliyuncs.com
+  - DOMAIN,httpdns-sc.aliyuncs.com
+  - DOMAIN,httpdns.kg.qq.com
+  - DOMAIN,httpdns.weixin.qq.com
+  - DOMAIN,httpdns.baidu.com
+  - DOMAIN,httpsdns.baidu.com
+  - DOMAIN,httpdns.volcengineapi.com
+  - DOMAIN,httpdns.bytedance.com
+  - DOMAIN,httpdns.snssdk.com
+  - DOMAIN,httpdns.bilivideo.com
+  - DOMAIN,httpdns.n.shifen.com
+  - DOMAIN-SUFFIX,dns.alidns.com
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,doh.360.cn
+  - IP-CIDR,203.107.1.1/32,no-resolve
+  - IP-CIDR,203.107.1.33/32,no-resolve
+  - IP-CIDR,119.29.29.29/32,no-resolve
+  - IP-CIDR,119.28.28.28/32,no-resolve
+  - IP-CIDR,223.5.5.5/32,no-resolve
+  - IP-CIDR,223.6.6.6/32,no-resolve
+  - IP-CIDR,1.12.12.12/32,no-resolve
+  - IP-CIDR,120.53.53.53/32,no-resolve
+  - IP-CIDR,180.76.76.76/32,no-resolve
+
+  # Analytics / telemetry SDKs
+  - DOMAIN-SUFFIX,umeng.com
+  - DOMAIN-SUFFIX,umengcloud.com
+  - DOMAIN-SUFFIX,umeng.co
+  - DOMAIN-SUFFIX,ut.taobao.com
+  - DOMAIN-SUFFIX,bugly.qq.com
+  - DOMAIN-SUFFIX,bugly.gtimg.com
+  - DOMAIN-SUFFIX,beacon.qq.com
+  - DOMAIN-SUFFIX,mta.qq.com
+  - DOMAIN-SUFFIX,tajs.qq.com
+  - DOMAIN-SUFFIX,hm.baidu.com
+  - DOMAIN-SUFFIX,hmma.baidu.com
+  - DOMAIN-SUFFIX,mtj.baidu.com
+  - DOMAIN-SUFFIX,shence.com
+  - DOMAIN-SUFFIX,sensorsdata.cn
+  - DOMAIN-SUFFIX,sensorsdata.com
+  - DOMAIN-SUFFIX,growingio.com
+  - DOMAIN-SUFFIX,growingio.cn
+  - DOMAIN-SUFFIX,talkingdata.com
+  - DOMAIN-SUFFIX,talkingdata.net
+  - DOMAIN-SUFFIX,ibytedapm.com
+  - DOMAIN-SUFFIX,apmplusvolces.com
+  - DOMAIN-SUFFIX,volces.com
+
+  # Push / device services
+  - DOMAIN-SUFFIX,jiguang.cn
+  - DOMAIN-SUFFIX,jpush.cn
+  - DOMAIN-SUFFIX,jpush.io
+  - DOMAIN-SUFFIX,getui.com
+  - DOMAIN-SUFFIX,igexin.com
+  - DOMAIN-SUFFIX,gepush.com
+  - DOMAIN-SUFFIX,xmpush.xiaomi.com
+  - DOMAIN-SUFFIX,push.heytapmobi.com
+  - DOMAIN-SUFFIX,push.hicloud.com
+  - DOMAIN-SUFFIX,push.vivo.com.cn
+  - DOMAIN-SUFFIX,push.apple.com
+
+  # Risk control / captcha / anti-fraud often embedded in China apps
+  - DOMAIN-SUFFIX,geetest.com
+  - DOMAIN-SUFFIX,geevisit.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,tongdun.net
+  - DOMAIN-SUFFIX,fengkongcloud.com
+  - DOMAIN-SUFFIX,ishumei.com
+  - DOMAIN-SUFFIX,shumei.com
+  - DOMAIN-SUFFIX,shuzilm.cn
+  - DOMAIN-SUFFIX,dingxiang-inc.com
+
+  # Map / location
+  - DOMAIN-SUFFIX,amap.com
+  - DOMAIN-SUFFIX,amap.com.cn
+  - DOMAIN-SUFFIX,autonavi.com
+  - DOMAIN-SUFFIX,map.qq.com
+  - DOMAIN-SUFFIX,apis.map.qq.com
+  - DOMAIN-SUFFIX,map.baidu.com
+
+  # Domestic CDN / object storage commonly used by China apps
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,tencent-cloud.net
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,byteimg.com
+  - DOMAIN-SUFFIX,bytetos.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN-SUFFIX,qiniu.com
+  - DOMAIN-SUFFIX,qiniucdn.com
+  - DOMAIN-SUFFIX,clouddn.com
+  - DOMAIN-SUFFIX,qnssl.com
+  - DOMAIN-SUFFIX,ksyun.com
+  - DOMAIN-SUFFIX,ksyuncdn.com
+  - DOMAIN-SUFFIX,bcebos.com
+  - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,wangsu.com
+  - DOMAIN-SUFFIX,wscloudcdn.com
+  - DOMAIN-SUFFIX,cdn20.com
+  - DOMAIN-SUFFIX,baishan-cloud.com
+  - DOMAIN-SUFFIX,ourdvs.com
